@@ -31,7 +31,7 @@
     <actions>
         <action id="ColorCalculatorAction" class="com.fbsum.plugin.colorcalculator.ColorCalculatorAction"
                 text="Color Calculator" description="A color value calculator">
-            <add-to-group group-id="HelpMenu" anchor="first"/>
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
         </action>
     </actions>
 
