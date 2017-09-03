@@ -1,16 +1,16 @@
 <idea-plugin>
-    <id>com.fbsum.plugin.ColorCalculator</id>
+    <id>com.fbsum.plugin.colorcalculator</id>
     <name>Color Calculator</name>
     <version>1.0.0</version>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="scausum@gmail.com" url="https://github.com/fbsum">fbsum</vendor>
 
     <description><![CDATA[
-      A color value calculator.<br>
+      A calculator for color.<br>
       <em>most HTML tags may be used</em>
     ]]></description>
 
     <change-notes><![CDATA[
-      version 1.0.0<br>
+      Release 1.0.0: Initial release.<br>
       <em>most HTML tags may be used</em>
     ]]>
     </change-notes>
@@ -30,7 +30,7 @@
 
     <actions>
         <action id="ColorCalculatorAction" class="com.fbsum.plugin.colorcalculator.ColorCalculatorAction"
-                text="Color Calculator" description="A color value calculator">
+                text="Color Calculator" description="A calculator for color.">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </action>
     </actions>
