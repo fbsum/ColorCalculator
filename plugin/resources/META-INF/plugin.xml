@@ -1,22 +1,22 @@
 <idea-plugin>
     <id>com.fbsum.plugin.colorcalculator</id>
     <name>Color Calculator</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <vendor email="scausum@gmail.com" url="https://github.com/fbsum">fbsum</vendor>
 
     <description><![CDATA[
-      A calculator for color.<br>
+      A calculator for color value.<br>
       <em>most HTML tags may be used</em>
     ]]></description>
 
     <change-notes><![CDATA[
-      Release 1.0.0: Initial release.<br>
+      Release 1.0.1: Refactor code.<br>
       <em>most HTML tags may be used</em>
     ]]>
     </change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-    <idea-version since-build="145.0"/>
+    <idea-version since-build="162.0"/>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
@@ -30,7 +30,7 @@
 
     <actions>
         <action id="ColorCalculatorAction" class="com.fbsum.plugin.colorcalculator.ColorCalculatorAction"
-                text="Color Calculator" description="A calculator for color.">
+                text="Color Calculator" description="A calculator for color value.">
             <add-to-group group-id="ToolsMenu" anchor="first"/>
         </action>
     </actions>
